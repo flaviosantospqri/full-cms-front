@@ -1,11 +1,13 @@
-function Home() {
- 
+import Header from "../../components/Header";
+import { Container } from "./style";
 
+function Home() {
   return (
-    <>
-    <h1>Home</h1>
-    </>
-  )
+    <Container>
+      <Header />
+      <h1>Home</h1>
+    </Container>
+  );
 }
 
-export default Home
+export default Home;
