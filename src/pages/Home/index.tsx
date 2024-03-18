@@ -1,13 +1,12 @@
-import Header from "../../components/Header";
-import { Container } from "./style";
+import React from "react";
+import Template from "../../components/Template";
 
-function Home() {
+const Home: React.FC = () => {
   return (
-    <Container>
-      <Header />
-      <h1>Home</h1>
-    </Container>
+    <>
+      <Template />
+    </>
   );
-}
+};
 
 export default Home;

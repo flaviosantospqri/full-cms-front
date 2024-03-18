@@ -15,8 +15,8 @@ const Header = () => {
       <Logo />
       <ul>
         {menuElements.map((element, index) => (
-          <li>
-            <a className="link" key={index} href={element.route}>
+          <li key={index}>
+            <a className="link" href={element.route}>
               {element.title}
             </a>
           </li>
